@@ -1,0 +1,20 @@
+body {
+  padding:30px;
+}
+ul {
+  position: relative;
+  height: 30px;
+  width: 150px;
+  list-style: none;
+}
+
+ul li {
+   padding: 5px 10px;
+   z-index: 2;
+   border: 1px #000 solid;
+   background-color: white;
+}
+
+ul li:hover {
+  background-color: #f0f0f0;
+}
